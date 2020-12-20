@@ -1,13 +1,10 @@
 import React from 'react';
 import './App.css';
 import logo from './logo.svg';
-import {Package, Status} from './package'
-import {Label} from './label';
+import {Status} from './package'
 import {AppState} from './app-state';
 
 export class App extends React.Component {
-	labels: Label[] = [];
-	packages: Package[] = [];
 	BASE_API_URL = 'https://package-json-corp-ws.herokuapp.com'
 	TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDg0NzA5OTUsImV4cCI6MTY0MDAwNjk5NSwic3ViIjoic3VwZXJfdXNlciIsInJvbGUiOiJjb3VyaWVyIn0.G2M875J1mAmnuWlsNiaSQSKveTpFzLjWLUgTjV9RBgQ';
 
